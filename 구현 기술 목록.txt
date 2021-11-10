@@ -1,0 +1,29 @@
+1. VR 인터랙션 스토리텔링 게임 구현
+
+1.1 VR 기능 구현
+	가. AddOnStateListener을 활용한 텔레포트 포인트 이동 처리 구현 
+	나. Raycast를 활용한 버튼의 응시 이벤트 구현
+	다. Event Trigger 컴포넌트를 활용한 버튼의 클릭 이벤트 구현
+	라. Outline으로 오브젝트 하이라이트 및 물건 집기 구현
+	마. Vive 컨트롤러 입력 제어를 위한 ControllerManager Class 제작
+	바. World Space기반 UI 제작
+	사. 컨트롤러 입력이 반영되는 HandAnimationManager Class 제작
+
+1.2 게임 기능 구현
+	가. Timeline Event Track을 활용한 해당 씬 상태 조건 체크 관리
+	나. OnTrigger 함수를 활용한 TimeLineActivator 스크립트 제작
+	다. Layer와 PhysicsManager를 활용한 충돌 처리 제어 기능 적용
+	라. SubTitleManager Class로 자막 On/Off 관리
+	마. 한글/영문 버전 자막 제공
+
+1.3 최적화 작업
+	가. 라이트맵을 수동으로 베이크한 라이트매핑 사용
+	나. 미리 다수의 오브젝트를 할당해둔 상태로 각 씬의 Manager Class에서 비활성화, 활성화를 통해 제어
+
+1.4 멀티 스토리텔링 구현
+	가. POV(Point of View)효과를 적용하여 같은 이야기를 다른 세개의 시점으로 체험하여 다양한 스토리를 전개할 수 있는 스토리텔링 기법 연구
+	나. Flashback 효과를 적용하여 이야기 도중 과거의 숨은 이야기를 전해 듣는 스토리텔링 기법 적용
+	다. 스토리 안에서 사용자가 어떤 캐릭터에 가장 많은 공감을 하였는지 연구
+
+1.5 외주 작업
+	가. 성우 녹음 외주 경험
